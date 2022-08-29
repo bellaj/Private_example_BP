@@ -34,7 +34,7 @@ $ docker build -t poa/geth-poa:latest .
 
 
 
-# test container alone
+# test container alone (OPTIONAL)
 ```console
 $ docker run -p 8545:8545 -p 8456:8456 poa/geth-poa:latest
 ```
