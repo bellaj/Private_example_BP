@@ -1,3 +1,7 @@
+# Prerequisites
+- Docker
+- Docker compose
+
 # private-poa-Blockchain :hammer:
 
 Docker image for Ethereum testnet using proof-of-authority consensus protocol based on Geth's latest version. By default two accounts will be created, one serving as a signer and another one which holds all the coins on the testnet.
@@ -7,6 +11,11 @@ Clone the repository
 
 ```console
 git clone https://github.com/Ethereumx/private_poa_network.git && cd private_poa_network
+```
+
+run 
+```
+sudo chmod 775 entrypoint.sh
 ```
 ## Building
 
