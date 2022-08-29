@@ -2,6 +2,15 @@
 - Docker
 - Docker compose
 
+### run docker without sudo using :
+```
+sudo groupadd docker
+sudo usermod -aG docker administrateur
+su - administrateur
+
+test using docker ps -a
+```
+
 # private-poa-Blockchain :hammer:
 
 Docker image for Ethereum testnet using proof-of-authority consensus protocol based on Geth's latest version. By default two accounts will be created, one serving as a signer and another one which holds all the coins on the testnet.
