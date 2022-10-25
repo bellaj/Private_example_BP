@@ -49,9 +49,13 @@ you can remove -d to get docker-comopse output
 stop it using `docker-compose down`
 
 # Metamask
-to use the prefnded account, import the following private key : a85c9e1ce557f963d221ae895ddfa3e3e7490f83d61ed3d56e2060a1d34cf61e
+to use the prefnded account, import the following private key : 
+```
+a85c9e1ce557f963d221ae895ddfa3e3e7490f83d61ed3d56e2060a1d34cf61e
+```
 
-## Bootstraping noodes
+
+## Bootstraping noodes (OPTIONAL)
 
 Add to static-nodes enodes strings separated by comma
 ````
