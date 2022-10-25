@@ -2,7 +2,7 @@
 - Docker
 - Docker compose
 
-### run docker without sudo using :
+#### run docker without sudo using :
 ```
 sudo groupadd docker
 sudo usermod -aG docker administrateur
